@@ -1,0 +1,16 @@
+{
+  "name": "koa-ex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src",
+    "start:dev": "nodemon --watch src/ src/index.js"
+  },
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-mysql": "^1.0.3",
+    "koa-router": "^7.4.0",
+    "koa2-mysql-wrapper": "1"
+  }
+}
